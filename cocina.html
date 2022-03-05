@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+    <meta name="theme-color" content="#203A45" />
+    <title>Pasteleria Katsura</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <style media="screen">
+        body {
+            background: black;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo.jpeg" width="30" height="40" class="d-inline-block align-top" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="catalogo.html">Catalogo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pedidos.html">Pedidos</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="cocina.html">Pendientes de Cocina</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid ">
+        <div class="row justify-content-md-center">
+            <div class="col-2">
+                <h3 class="text-nowrap">Pendientes de Cocina</h3>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-4">
+                <div class="container-fluid">
+                    <div class="card text-white bg-dark" style="width: 25rem;">
+                        <img class="card-img-top" src="img/img1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="pastel" class="col-sm-2 col-form-label">Pastel</label>
+                                <input type="text" readonly class="form-control " id="pastel"
+                                    value="CREPE CAKE CONEJITOS">
+                            </div>
+                            <div class="form-group text-nowrap">
+                                <label for="cantidad" class="col-sm-2 col-form-label">Cantidad</label>
+                                <input type="number" class="form-control-plaintext text-white" id="number" min="1"
+                                    max="5" value="2">
+                            </div>
+                            <div class="form-group text-nowrap">
+                                <button class="btn btn-primary btn-lg">Cerrar Pedido</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card text-white bg-dark" style="width: 25rem;">
+                        <img class="card-img-top" src="img/img3.png" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="pastel" class="col-sm-2 col-form-label">Pastel</label>
+                                <input type="text" readonly class="form-control " id="pastel"
+                                    value="CREPE CAKE HENNESSY">
+                            </div>
+                            <div class="form-group text-nowrap">
+                                <label for="cantidad" class="col-sm-2 col-form-label">Cantidad</label>
+                                <input type="number" class="form-control-plaintext text-white" id="number" min="1"
+                                    max="5" value="1">
+                            </div>
+                            <div class="form-group text-nowrap">
+                                <button class="btn btn-primary btn-lg">Cerrar Pedido</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+</body>
+
+</html>
